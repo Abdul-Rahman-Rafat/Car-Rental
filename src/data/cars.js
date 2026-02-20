@@ -1,0 +1,10 @@
+export const cars = [
+  { id: 'bmw-x7', name: 'BMW', model: 'SUV', category: 'Suv', pricePerDay: 25, transmission: 'Automat', fuelType: 'PB 95', air: 'Air Conditioner', seats: 5, distance: 500, doors: 2, gearBox: 'Automat', images: ['https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80'] },
+  { id: 'mercedes-sport', name: 'Mercedes', model: 'Sport', category: 'Sedan', pricePerDay: 50, transmission: 'Manual', fuelType: 'PB 95', air: 'Air Conditioner', seats: 5, distance: 470, doors: 4, gearBox: 'Manual', images: ['https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80'] },
+  { id: 'mercedes-sedan', name: 'Mercedes', model: 'Sedan', category: 'Sedan', pricePerDay: 45, transmission: 'Automat', fuelType: 'PB 95', air: 'Air Conditioner', seats: 5, distance: 450, doors: 4, gearBox: 'Automat', images: ['https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80'] },
+  { id: 'porsche-suv', name: 'Porsche', model: 'SUV', category: 'Suv', pricePerDay: 40, transmission: 'Automat', fuelType: 'PB 95', air: 'Air Conditioner', seats: 5, distance: 460, doors: 4, gearBox: 'Automat', images: ['https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80'] },
+  { id: 'toyota-sedan', name: 'Toyota', model: 'Sedan', category: 'Sedan', pricePerDay: 35, transmission: 'Manual', fuelType: 'PB 95', air: 'Air Conditioner', seats: 5, distance: 430, doors: 4, gearBox: 'Manual', images: ['https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80'] },
+  { id: 'maybach', name: 'Maybach', model: 'Sedan', category: 'Sedan', pricePerDay: 70, transmission: 'Automat', fuelType: 'PB 95', air: 'Air Conditioner', seats: 5, distance: 520, doors: 4, gearBox: 'Automat', images: ['https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80'] },
+];
+
+export const categories = ['All vehicles', 'Sedan', 'Cabriolet', 'Pickup', 'Suv', 'Minivan'];
